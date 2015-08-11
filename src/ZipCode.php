@@ -12,7 +12,7 @@ class ZipCode extends \Zend\Validator\AbstractValidator
         self::LENGTH  => "The input be 5 characters"
     );
 
-    public static function isValid($zipCode)
+    public function isValid($zipCode)
     {
         $isValid = false;
 
